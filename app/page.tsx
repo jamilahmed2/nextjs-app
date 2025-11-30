@@ -1,8 +1,13 @@
-import React from 'react'
+import Hellow from "./components/Hellow"
+
 
 const Home = () => {
+  console.log("what am i ")
   return (
-    <div>Hello World</div>
+    <main>
+      <Hellow/>
+      <div className="text-center text-5xl">Hello World</div>
+    </main>
   )
 }
 
