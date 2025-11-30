@@ -1,4 +1,4 @@
-import Hellow from "../components/Hellow"
+import Hellow from "../../components/Hellow"
 
 
 const Home = () => {
