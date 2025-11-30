@@ -1,8 +1,24 @@
 ├── app/
+│   ├── (dashboard)/
+│   │   ├── dashboard/
+│   │   │   ├── reports/
+│   │   │   │   └── page.tsx (0.1 KB)
+│   │   │   └── users/
+│   │   │       ├── [id]/
+│   │   │       │   └── page.tsx (0.3 KB)
+│   │   │       └── page.tsx (0.5 KB)
+│   │   └── layout.tsx (0.2 KB)
+│   ├── (root)/
+│   │   ├── about/
+│   │   │   └── page.tsx (0.1 KB)
+│   │   ├── error.tsx (0.2 KB)
+│   │   ├── layout.tsx (0.2 KB)
+│   │   └── page.tsx (0.2 KB)
 │   ├── favicon.ico (25.3 KB)
 │   ├── globals.css (0.5 KB)
-│   ├── layout.tsx (0.7 KB)
-│   └── page.tsx (2.8 KB)
+│   └── layout.tsx (0.7 KB)
+├── components/
+│   └── Hellow.tsx (0.2 KB)
 ├── public/
 │   ├── file.svg (0.4 KB)
 │   ├── globe.svg (1.0 KB)
@@ -11,9 +27,10 @@
 │   └── window.svg (0.4 KB)
 ├── eslint.config.mjs (0.5 KB)
 ├── next-env.d.ts (0.2 KB)
-├── next.config.ts (0.1 KB)
-├── package-lock.json (221.8 KB)
-├── package.json (0.5 KB)
+├── next.config.ts (0.2 KB)
+├── package-lock.json (222.2 KB)
+├── package.json (0.6 KB)
 ├── postcss.config.mjs (0.1 KB)
+├── project-structure.txt (0.6 KB)
 ├── README.md (1.4 KB)
 └── tsconfig.json (0.7 KB)
